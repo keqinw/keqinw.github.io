@@ -25,7 +25,7 @@ We came up with an innovative end-to-end framework that combines the CNN and PPO
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
-</iframe>
+</iframe> <br>
 
 Parallel Robot System for Objects Sorting
 -----
