@@ -33,5 +33,8 @@ We designed a new parallel structure of robotic arm that can move faster than no
 
 [Late but Safe: Control Car Braking with Delay-Aware Reinforcement Learning](http://keqinw.github.io/late)
 ------
-We solved an action-delay problem with a model-based algorithm Delay-Aware Trajectory Sampling (DATS). We trained a probabilistic ensembled model as the transition function, which could predict the distribution of current cart state given the previous state and the future actions; utilized Cross-Entropy Method to search the next action, given the prediction from ensembled network.
-![](https://github.com/keqinw/keqinw.github.io/raw/master/images/brake-delay-MBRL-DATS.gif "Controled by DATS")  
+We solved an action-delay problem with a model-based algorithm Delay-Aware Trajectory Sampling (DATS). We trained a probabilistic ensembled model as the transition function, which could predict the distribution of current cart state given the previous state and the future actions; utilized Cross-Entropy Method to search the next action, given the prediction from ensembled network.  
+Left: brake with PPO, the cart cannot exactly stop at the point bue to the action-delay. Right: brake with DATS, the cart could overcome the action-delay.  
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/brake_delay.gif "Controled by PPO") 
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/brake-delay-MBRL-DATS.gif "Controled by DATS") 
+ 
