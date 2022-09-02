@@ -12,7 +12,7 @@ redirect_from:
 MAN: Multi-Agent Networks Learning
 ======
 We introduce a novel Deep Reinforcement Learning (DRL) algorithm called Multi-Agent Networks (MAN) Learning, to especially solve the discrete action space problems. We manually separate the action space into two smaller parts, and create one Value Neural network for each of them. Then MAN uses temporal-difference learning to train these networks synchronously, which is easier than training one networks with large action output directly. We first test MAN on a block stacking problem where we come up the basic idea of MAN, and then extend MAN for tackling 12 games with 18 action spaces of the Atari Arcade Learning environment.  
-![](https://github.com/keqinw/keqinw.github.io/raw/master/images/pipeline.png"pipeline of MAN")  
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/pipeline.png "pipeline of MAN")  
 
 MAN
 ======
