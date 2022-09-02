@@ -14,7 +14,7 @@ redirect_from:
 We introduce a novel Deep Reinforcement Learning (DRL) algorithm called Multi-Agent Networks (MAN) Learning, to especially solve the discrete action space problems. We manually separate the action space into two smaller parts, and create one Value Neural network for each of them. Then MAN uses temporal-difference learning to train these networks synchronously, which is easier than training one networks with large action output directly. We first test MAN on a block stacking problem where we come up the basic idea of MAN, and then extend MAN for tackling 12 games with 18 action spaces of the Atari Arcade Learning environment.  
 ![](https://github.com/keqinw/keqinw.github.io/raw/master/images/pipeline.png "pipeline of MAN")  
 
-A DRL Framework Towards Drawing Single-stroked Handwriting Image
+[A DRL Framework Towards Drawing Single-stroked Handwriting Image](http://keqinw.github.io/draw)
 -----
 We came up with an innovative end-to-end framework that combines the CNN and PPO to control the manipulator to draw single-stroked pictures on a flat surface. In perticular, we preprocessed the raw 2D image from UNIPEN dataset and extracted features with CNN; and we applied model-free method PPO in inverse kinematics solving that enable the manipulator to reach the destination, utilizing Hindsight Experience Replay (HER) and Goal Condition (GC) technique to accelerate the training. To evaluate the performance of our framework, we tested the framework in the real world to draw simple letters and shapes on ROS platforms.  
 <iframe
@@ -25,4 +25,9 @@ We came up with an innovative end-to-end framework that combines the CNN and PPO
     allow="autoplay; encrypted-media"
     allowfullscreen
 >
-</iframe>
+</iframe>  
+
+Parallel Robot System for Objects Sorting
+-----
+
+We designed a new parallel structure of robotic arm that can move faster than normal arms, inspired by the structure of Delta 3D printer and set up the mechanical and electrical structures. In experiment, we applied the Parallel Robot System in a real-world assembly line, in which the robotic arm detects the position of the randomly placed objects and stacks them separately by color and type.
