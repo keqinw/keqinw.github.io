@@ -27,7 +27,3 @@ We came up with an innovative end-to-end framework that combines the CNN and PPO
 >
 </iframe> <br>
 
-Parallel Robot System for Objects Sorting
------
-
-We designed a new parallel structure of robotic arm that can move faster than normal arms, inspired by the structure of Delta 3D printer and set up the mechanical and electrical structures. In experiment, we applied the Parallel Robot System in a real-world assembly line, in which the robotic arm detects the position of the randomly placed objects and stacks them separately by color and type.
