@@ -37,5 +37,5 @@ We solved an action-delay problem with a model-based algorithm Delay-Aware Traje
 Left: brake with PPO, the cart cannot exactly stop at the point bue to the action-delay. Right: brake with DATS, the cart could overcome the action-delay.  
 <!-- ![](https://github.com/keqinw/keqinw.github.io/raw/master/images/brake_delay.gif | width=100) -->
 <img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/brake_delay.gif" width="100" height="100">
-![](https://github.com/keqinw/keqinw.github.io/raw/master/images/brake-delay-MBRL-DATS.gif "Controled by DATS") 
+<img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/brake-delay-MBRL-DATS.gif" width="100" height="100">
  
