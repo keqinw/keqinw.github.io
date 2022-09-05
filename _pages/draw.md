@@ -16,6 +16,9 @@ the low-level is a reinforcement learning problem, which trained by exploring th
 
 ![](https://github.com/keqinw/keqinw.github.io/raw/master/images/Slide3.png)
 
+In addition, in order to accelerate the training, we utilized the Highsight Experience Replay (HER) and Goal Condition (GC). We add the goal into the state, and we transfer the detination of 80% experience by HER. 
+
+However, the limitations of this framework are obvious. First, the control is open-loop, there is no feedback from motor or end-effect, which decrease the accuracy. Besides, this framework require us to train the CNN and PPO sperately, which is not end-to-end enough.  
 
 Below is the result of the mimicry of various graphs. 
 
