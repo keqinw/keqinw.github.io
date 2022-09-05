@@ -12,4 +12,18 @@ Above figure is the MAN structure schematic. The MAN firstly splits the original
 
 ![](https://github.com/keqinw/keqinw.github.io/raw/master/images/loss.png)
 
-The loss function are showed above, which is based on TD(0) learning.
+The loss functions are showed above, which is based on TD(0) learning.  
+
+We start by measuring the performance of the Multi- Agent architecture on a simple stacking task. We choose this particular task because it is very useful for illustrating the key ideas of our algorithm, as it is natural to divide the original action space into type choosing and position choosing. In this experiment, our aim is to stack rectangular blocks of four different sizes together while making them as com- pact as possible and ending up with the lowest overall height possible. 
+
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/stack_result.png)
+
+Above is the result comparation in Stacking problem. The bumpiness is an indicator calculated by the variance of the outline (marked with blue line in the Figure), the smaller the number, the flatter the top layer of the pile. Obviously, within the same training episodes, DQN learned almost no reasonable policy; DDQN learned a good but still imperfect policy; and MAN learned an optimal policy, which outputs the lowest height and bumpiness.
+
+We conduct a thorough examination of our suggested method on the Arcade Learning Environment (ALE), to confirm the capacity to tackle more complicated problems.  
+
+From among 57 games in ALE, 12 games that combine button and joystick control with an action space of 18 were chosen. In DQN and DDQN where we use the original action space, we had difficulty mastering joystick and button control at the same time. Instead, using MAN, we can think differently, i.e., first determine the direction of joystick (9 actions in total), and then determine to press the button or not (2 actions in total). Thus, we reduce 18 actions to 11 (9+2) actions which needs less exploration theoretically. 
+
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/avg_score.png)
+
+Above figure shows the nomarlization scores of DQN, DDQN, and MAN. Our method boosted the average normalized score from 261% (with DQN) to 397.7%.
