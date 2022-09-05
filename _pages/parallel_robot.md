@@ -10,3 +10,15 @@ The above figure shows the machine we built, which contains the following hardwa
 
 ![](https://github.com/keqinw/keqinw.github.io/raw/master/images/robot.png) 
 
+We simulated curve of motor torque load in Simulink and estimated the action space with Monte Carlo for safety guarantee. The result shows that our new design could dramatically decrease the load on motor, which is good for longer service life.
+
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/simu.png) 
+
+Finally, we applied the Parallel Robot System in a real-world assembly line, in which the robotic arm detects the position of the randomly placed objects and stacks them separately by color and type.  
+
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/picking.gif) 
+
+This project won the `Best Graduation Design` Prize among 100+ projects in Mechanical Engineering Department.
+
+
+
