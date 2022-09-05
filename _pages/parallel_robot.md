@@ -13,6 +13,9 @@ The Bottom left figure shows the machine we built, which contains the following 
 
 We simulated curve of motor torque load in Simulink and estimated the action space with Monte Carlo for safety guarantee. The result (the bottom right figure) shows that our new design could dramatically decrease the load on motor, which is good for longer service life.
 
+In order to get the position of the object, we implemented the object detection program based on feature matching algorithm with SIFT descriptor. Our program can frame the target and return its position in the image, see in the figure below.  
+
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/detect.png) 
 
 Finally, we applied the Parallel Robot System in a real-world assembly line, in which the robotic arm detects the position of the randomly placed objects and stacks them separately by color and type.  
 
