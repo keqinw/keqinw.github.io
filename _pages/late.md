@@ -18,8 +18,8 @@ DATS: Based on probabilistic ensembles with trajectory sampling (PETS), DATS is 
 ![](https://github.com/keqinw/keqinw.github.io/raw/master/images/loss_dats.png)
 
 ###### Result
-![](https://github.com/keqinw/keqinw.github.io/raw/master/images/brake_delay.gif)
-![](https://github.com/keqinw/keqinw.github.io/raw/master/images/brake-delay-MBRL-DATS.gif)
+<img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/brake_delay.gif" height="250">
+<img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/brake-delay-MBRL-DATS.gif" height="250">
 ![](https://github.com/keqinw/keqinw.github.io/raw/master/images/result_dats.png)
 
 DATS results outperformed other methods due to the data augmentation to obtain a better dynamic model. Instead of relying only on the state before n steps , DATS utilizes the information of the previous n steps and the following n actions to predict the current action
