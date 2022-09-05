@@ -24,6 +24,9 @@ We conduct a thorough examination of our suggested method on the Arcade Learning
 
 From among 57 games in ALE, 12 games that combine button and joystick control with an action space of 18 were chosen. In DQN and DDQN where we use the original action space, we had difficulty mastering joystick and button control at the same time. Instead, using MAN, we can think differently, i.e., first determine the direction of joystick (9 actions in total), and then determine to press the button or not (2 actions in total). Thus, we reduce 18 actions to 11 (9+2) actions which needs less exploration theoretically. 
 
-![](https://github.com/keqinw/keqinw.github.io/raw/master/images/avg_score.png)
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/atari.png)
 
 Above figure shows the nomarlization scores of DQN, DDQN, and MAN. Our method boosted the average normalized score from 261% (with DQN) to 397.7%.
+
+![](https://github.com/keqinw/keqinw.github.io/raw/master/images/avg_score.png)
+The average rewards by DQN, DDQN and MAN on four Atari games. The results are obtained by running with 6 different random seeds. 
