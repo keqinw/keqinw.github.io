@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Projects"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I’m Keqin Wang!
+Hello, I’m Keqin Wang!  
 
 Education
 ---
-B.S. in Hangzhou, Zhejiang University, May 2020.
+B.S. in Hangzhou, Zhejiang University, May 2020.  
 M.S. in Pittsburgh, Carnegie Mellon University, Dec. 2022.
 
 RESEARCH INTERESTS
