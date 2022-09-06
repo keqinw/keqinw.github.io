@@ -15,7 +15,7 @@ Education
 B.S. in Hangzhou, Zhejiang University, May 2020.  
 M.S. in Pittsburgh, Carnegie Mellon University, Dec. 2022.
 
-RESEARCH INTERESTS
+Research Interests
 ---
 * Long-horizon robotic tasks.
 * Reinforcement learning with Sparse Reward.
