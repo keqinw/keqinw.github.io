@@ -25,12 +25,6 @@ We came up with an innovative end-to-end framework that combines the CNN and PPO
 >
 </iframe>
 
-[Parallel Robot System for Objects Sorting](http://keqinw.github.io/parallel)
-----
-We designed a new parallel structure of robotic arm that can move faster than normal arms, inspired by the structure of Delta 3D printer and set up the mechanical and electrical structures. In experiment, we applied the Parallel Robot System in a real-world assembly line, in which the robotic arm detects the position of the randomly placed objects and stacks them separately by color and type.
-
-<img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/picking.gif"> 
-
 [Late but Safe: Control Car Braking with Delay-Aware Reinforcement Learning](http://keqinw.github.io/late)
 ------
 We solved an action-delay problem with a model-based algorithm Delay-Aware Trajectory Sampling (DATS). We trained a probabilistic ensembled model as the transition function, which could predict the distribution of current cart state given the previous state and the future actions; utilized Cross-Entropy Method to search the next action, given the prediction from ensembled network.  
@@ -38,3 +32,11 @@ Left: brake with PPO, the cart cannot exactly stop at the point bue to the actio
 <img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/brake_delay.gif" height="250">
 <img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/brake-delay-MBRL-DATS.gif" height="250">
  
+ 
+[Parallel Robot System for Objects Sorting](http://keqinw.github.io/parallel)
+----
+We designed a new parallel structure of robotic arm that can move faster than normal arms, inspired by the structure of Delta 3D printer and set up the mechanical and electrical structures. In experiment, we applied the Parallel Robot System in a real-world assembly line, in which the robotic arm detects the position of the randomly placed objects and stacks them separately by color and type.
+
+<img src="https://github.com/keqinw/keqinw.github.io/raw/master/images/picking.gif"> 
+
+
